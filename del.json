@@ -1,0 +1,36 @@
+[
+{"accessLevel": "public", "bureauCode": ["005:17"], "contactPoint": "Website Administrator", "dataQuality": true, "dataquality": "true", "description": "This chart gallery is a collection of the best Charts of Note from 2013. These charts were selected by ERS editors as those worthy of a second read because they provide context for the year\u2019s headlines or share key insights from ERS research.", "distribution": [{"accessURL": "http://www.ers.usda.gov/data-products/best-of-charts-of-note-2013.aspx", "format": "text/html"}], "identifier": "USDA-ERS-10000", "issued": "2013-12-31", "keyword": ["agricultural economics", "charts"], "license": "License Not Specified", "mbox": "webadmin@ers.usda.gov", "modified": "2014-02-28T23:14:39.342635", "programCode": ["005:041"], "publisher": "Economic Research Service, U.S. Department of Agriculture", "references": ["http://www.ers.usda.gov/data-products/charts-of-note.aspx"], "temporal": "2013/2014", "title": "Best of Charts of Note 2013", "theme": ["geospatial"]},
+
+   {
+      "title":"Combined Heat and Power Installation Database 34",
+      "description":"The Combined Heat & Power (CHP) Installation Database contains information about all the known CHP installations across the country. This data is compiled through a variety of sources and is the only known data set of its kind. DOE, in partnership with the Oak Ridge National Laboratory and ICF International, will be releasing the non-confidential data from this database, including the CHP system's city, industry NAICS code, MW capacity, fuel, prime mover technology, initial operating year, and servicing electric utility.",
+      "keyword":[
+         "cogeneration",
+         "combined heat and power"
+      ],
+"theme": ["geospatsdfial", "Geospatial"],
+      "modified":"2013-11-26T00:09:02.592051",
+      "publisher":"Department of Energy",
+      "organization":"Department of Energy",
+      "contactPoint":"Anne Hampson",
+      "mbox":"ahampson@icfi.com",
+      "identifier":"doe-41748183796",
+      "accessLevel":"public",
+      "bureauCode":[
+         "019:20"
+      ],
+      "programCode":[
+         "019:001"
+      ],
+      "license":"Other (Not Open)",
+      "dataQuality":true,
+      "landingPage":"http://www.eea-inc.com/chpdata/index.html",
+      "distribution":[
+         {
+            "identifier":"1160386c-8a7f-49e9-b905-1a910fd2ca1e",
+            "accessURL":"http://www.eea-inc.com/chpdata/index.html",
+            "format":"text/html"
+         }
+      ]
+   }
+]
