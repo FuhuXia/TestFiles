@@ -46,6 +46,75 @@
             "theme": [
                 "IT Initiatives"
             ]
+        },
+        {
+            "@type": "dcat:Dataset",
+            "accessLevel": "public",
+            "accrualPeriodicity": "R/P1W",
+            "bureauCode": [
+                "000:00"
+            ],
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "Valerie R Butler",
+                "hasEmail": "mailto:valerie.butler@gsa.gov"
+            },
+            "dataQuality": true,
+            "description": "The Inventory of Owned and Leased Properties (IOLP) allows users to search properties owned and leased by the General Services Administration (GSA) across the United States, Puerto Rico, Guam and American Samoa.\n\nThe Owned and Leased Data Sets include the following data except where noted below for Leases:\n\n- Location Code - GSA’s alphanumeric identifier for the building\n- Real Property Asset Name - Allows users to find information about a specific building \n- Installation Name - Allows users to identify whether a property is part of an installation, such as a campus\n- Owned or Leased - Indicates the building is federally owned (F) or leased (L)\n- GSA Region - GSA assigned region for building location\n- Street Address/City/State/Zip Code - Building address\n- Longitude and Latitude - Map coordinates of the building (only through .csv export)\n- Rentable Square Feet - Total rentable square feet in building\n- Available Square Feet - Vacant space in building\n- Construction Date (Owned Only) - Year built\n- Congressional District - Congressional District building is located\n- Senator/Representative/URL - Senator/Representative of the Congressional District and their URL\n- Building Status (Owned Only) - Indicates building is active\n- Lease Number (Leased Only) - GSA’s alphanumeric identifier for the lease\n- Lease Effective/Expiration Dates (Leased Only) - Date lease starts/expires\n- Real Property Asset Type - Identifies a property as land, building, or structure",
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "conformsTo": "http://www.isotc211.org/2005/gmd",
+                    "downloadURL": "https://inventory.data.gov/dataset/9a9e946e-124e-46f5-a934-e458a6c1c2b2/resource/699145f9-9bcd-4e8e-99a8-55b535fee6ae/download/iolp19139_050324.txt",
+                    "mediaType": "text/plain",
+                    "title": "IOLP19139_050324.txt"
+                },
+                {
+                    "@type": "dcat:Distribution",
+                    "downloadURL": "https://inventory.data.gov/dataset/9a9e946e-124e-46f5-a934-e458a6c1c2b2/resource/50121e80-91c8-4c83-bbd6-296b9e091898/download/2026-7-17-iolp-leases.xlsx",
+                    "mediaType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                    "title": "2026 - 7 - 17 - IOLP Leases.xlsx"
+                },
+                {
+                    "@type": "dcat:Distribution",
+                    "downloadURL": "https://inventory.data.gov/dataset/9a9e946e-124e-46f5-a934-e458a6c1c2b2/resource/fee2c948-999a-4530-a522-c76065cd60b7/download/2026-7-17-iolp-buildings.xlsx",
+                    "mediaType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                    "title": "2026 - 7 - 17 - IOLP Buildings.xlsx"
+                }
+            ],
+            "identifier": "GSA-4495",
+            "issued": "2002-01-01",
+            "keyword": [
+                "BUILDING_STATUS",
+                "City",
+                "LEASE_EFFECTIVE_DATE",
+                "LEASE_EXPIRATION_DATE",
+                "Latitude",
+                "Lease_Num",
+                "Longitude",
+                "STATE_CD",
+                "STREET_ADDRESS",
+                "Zipcode5",
+                "geospatial"
+            ],
+            "language": [
+                "en-us"
+            ],
+            "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "modified": "2026-07-17T16:04:59.896Z",
+            "programCode": [
+                "000:000"
+            ],
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "General Services Administration"
+            },
+            "rights": "true",
+            "spatial": "United States",
+            "theme": [
+                "geospatial"
+            ],
+            "title": "Inventory of Owned and Leased Properties (IOLP)"
         }
     ]
 }
