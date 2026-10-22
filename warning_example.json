@@ -134,6 +134,12 @@
         "name": "Office of Management and Budget"
       },
       "keyword": ["federal data", "government", "open data", "government"],
+        "spatial": [
+    {
+      "@type": "Location",
+      "prefLabel": "National"
+    }
+  ],
       "identifier": "https://example.gov/datasets/catalog-complete-001"
     },
     {
